@@ -11,23 +11,19 @@ struct BarCodeScannerMainView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Spacer()
                 
                 Rectangle()
                     .foregroundColor(ColorManager.darkGray)
                     .frame(maxWidth: .infinity, maxHeight: 300)
                 
+                Spacer().frame(height: 60)
                 
-                VStack{
-                    IconLabel(label: "Scanned Barcode:")
-                    StatusMessage(isScanned: false)
-                }
-                .padding(.top, 76)
+                Label("Scanner Barcode", systemImage: "barcode.viewfinder")
+                    .font(.title)
                 
-                Spacer()
-                
-                
-                
+                StatusMessage(isScanned: false)
+                    .padding()
+            
             }
             .navigationTitle("Barcode Scanner")
         }

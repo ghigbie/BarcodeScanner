@@ -12,8 +12,7 @@ struct BarCodeScannerMainView: View {
         NavigationView {
             VStack {
                 
-                Rectangle()
-                    .foregroundColor(ColorManager.darkGray)
+            ScannerView()
                     .frame(maxWidth: .infinity, maxHeight: 300)
                 
                 Spacer().frame(height: 60)

@@ -16,6 +16,7 @@
 		DB2CC54B25C79DF60069B10A /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2CC54A25C79DF60069B10A /* ColorManager.swift */; };
 		DB2CC54F25C79F550069B10A /* StatusMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2CC54E25C79F550069B10A /* StatusMessage.swift */; };
 		DB72ED1D25CB96BF00A64F4C /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB72ED1C25CB96BF00A64F4C /* ScannerVC.swift */; };
+		DB9B8BDE25D8DBF40007E97D /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B8BDD25D8DBF40007E97D /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DB2CC54A25C79DF60069B10A /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 		DB2CC54E25C79F550069B10A /* StatusMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMessage.swift; sourceTree = "<group>"; };
 		DB72ED1C25CB96BF00A64F4C /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		DB9B8BDD25D8DBF40007E97D /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				DB2CC53C25C791590069B10A /* BarCodeScannerMainView.swift */,
+				DB9B8BDD25D8DBF40007E97D /* ScannerView.swift */,
 			);
 			path = barcode;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB2CC53D25C791590069B10A /* BarCodeScannerMainView.swift in Sources */,
+				DB9B8BDE25D8DBF40007E97D /* ScannerView.swift in Sources */,
 				DB2CC54825C796290069B10A /* IconLabel.swift in Sources */,
 				DB2CC54F25C79F550069B10A /* StatusMessage.swift in Sources */,
 				DB2CC52F25C790690069B10A /* ContentView.swift in Sources */,
